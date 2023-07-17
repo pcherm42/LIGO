@@ -1,0 +1,14 @@
+executable = $(homeDir)/matlab/foldfold_wrapper.sh
+output = $(homeDir)/out/$(jobid).out
+error = $(homeDir)/out/$(jobid).err
+log = $(homeDir)/out/$(jobid).log
+request_memory =32GB
+notification = never
+getenv = True
+universe = vanilla
+arguments = $(ifo) $(loc) $(foldSize) $(channel) $(FS) $(dir) $(months_file) $(homeDir)
+accounting_group = ligo.prod.o2.detchar.linefind.folding
+should_transfer_files = IF_NEEDED
+when_to_transfer_output = ON_EXIT
++maxhours = 5
+queue 1

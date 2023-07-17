@@ -1,0 +1,6 @@
+/home/sherman.thompson/FoldingAnalysis/O3/files/matfiles/CAL-DELTAL_EXTERNAL_DQ/H1/H1:CAL-DELTAL_EXTERNAL_DQ_sum.mat, sumsumavg, 16384, /home/sherman.thompson/FoldingAnalysis/O3/files/matfiles/CAL-DELTAL_EXTERNAL_DQ/L1/L1:CAL-DELTAL_EXTERNAL_DQ_sum.mat, sumsumavg, 16384
+
+//home//sherman.thompson//FoldingAnalysis//O3//files//matfiles//CAL-DELTAL_EXTERNAL_DQ//H1//H1:CAL-DELTAL_EXTERNAL_DQ_sum.mat, sumsumavg, 16384, //home//sherman.thompson//FoldingAnalysis//O3//files//matfiles//CAL-DELTAL_EXTERNAL_DQ//L1//L1:CAL-DELTAL_EXTERNAL_DQ_sum.mat, sumsumavg, 16384
+
+
+H1_CAL-DELTAL_EXTERNAL_DQ_sum.mat, sumsumavg, 16384, L1_CAL-DELTAL_EXTERNAL_DQ_sum.mat, sumsumavg, 16384

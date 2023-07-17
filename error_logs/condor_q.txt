@@ -1,0 +1,346 @@
+                                                    SUBMITTED   DONE   RUN    IDLE   HOLD  TOTAL JOB_IDS
+sherman.thompson 2019_April_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53460399       7/6  14:54     28      _      _      1     30 53460708.0
+sherman.thompson 2019_April_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53460401       7/6  14:54     29      _      _      1     30 53460797.0
+sherman.thompson 2019_April_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1.dag+53460443       7/6  14:55     29      1      _      _     30 53460660.0
+sherman.thompson 2019_April_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_H1.dag+53460517        7/6  14:55     29      1      _      _     30 53460930.0
+sherman.thompson 2019_April_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53460657       7/6  14:56     28      1      _      _     30 53461159.0
+sherman.thompson 2019_May_CAL-DELTAL_EXTERNAL_DQ_H1.dag+53461009               7/6  14:58     27      3      _      _     31 53462185.0 ... 53462264.0
+sherman.thompson 2019_May_CAL-DELTAL_EXTERNAL_DQ_L1.dag+53461032               7/6  14:59     20     11      _      _     31 53461365.0 ... 53462250.0
+sherman.thompson 2019_May_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_H1.dag+53461056          7/6  14:59     28      3      _      _     31 53462202.0 ... 53462280.0
+sherman.thompson 2019_May_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_L1.dag+53461083          7/6  14:59     28      1      2      _     31 53462251.0 ... 53462343.0
+sherman.thompson 2019_May_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53461106         7/6  14:59     25      2      4      _     31 53462228.0 ... 53462413.0
+sherman.thompson 2019_May_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53461135         7/6  14:59     27      2      2      _     31 53462248.0 ... 53462382.0
+sherman.thompson 2019_May_PEM-CS_MAG_LVEA_VERTEX_X_DQ_H1.dag+53461162          7/6  14:59     25      2      4      _     31 53462221.0 ... 53462399.0
+sherman.thompson 2019_May_PEM-CS_MAG_LVEA_VERTEX_X_DQ_L1.dag+53461189          7/6  14:59     23      1      7      _     31 53462261.0 ... 53462479.0
+sherman.thompson 2019_May_SUS-ETMY_L3_MASTER_OUT_LL_DQ_H1.dag+53461223         7/6  15:00     27      1      3      _     31 53462273.0 ... 53462380.0
+sherman.thompson 2019_May_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1.dag+53461250         7/6  15:00     25      1      5      _     31 53462278.0 ... 53462471.0
+sherman.thompson 2019_May_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53461282         7/6  15:00     22      1      8      _     31 53462260.0 ... 53462570.0
+sherman.thompson 2019_May_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53461312         7/6  15:00     22      1      8      _     31 53462269.0 ... 53462574.0
+sherman.thompson 2019_May_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53461344         7/6  15:00     22      1      8      _     31 53462277.0 ... 53462606.0
+sherman.thompson 2019_May_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53461374         7/6  15:01     21      1      9      _     31 53462283.0 ... 53462668.0
+sherman.thompson 2019_May_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53461406         7/6  15:01     19      1     11      _     31 53462267.0 ... 53462714.0
+sherman.thompson 2019_May_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53461427         7/6  15:01     19      1     11      _     31 53462274.0 ... 53462700.0
+sherman.thompson 2019_May_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_H1.dag+53461453          7/6  15:01     19      _     12      _     31 53462297.0 ... 53462719.0
+sherman.thompson 2019_May_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_L1.dag+53461479          7/6  15:01     18      1     12      _     31 53462272.0 ... 53462770.0
+sherman.thompson 2019_May_DCS-CALIB_STRAIN_C01_H1.dag+53461503                 7/6  15:01     18      _     13      _     31 53462319.0 ... 53462835.0
+sherman.thompson 2019_May_DCS-CALIB_STRAIN_C01_L1.dag+53461536                 7/6  15:01     18      _     13      _     31 53462315.0 ... 53462728.0
+sherman.thompson 2019_May_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53461571         7/6  15:02     16      1     14      _     31 53462286.0 ... 53462856.0
+sherman.thompson 2019_May_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53461597         7/6  15:02     15      1     15      _     31 53462265.0 ... 53462821.0
+sherman.thompson 2019_May_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53461625         7/6  15:02     14      1     16      _     31 53462259.0 ... 53462896.0
+sherman.thompson 2019_May_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53461652         7/6  15:02     13      1     17      _     31 53462268.0 ... 53462969.0
+sherman.thompson 2019_May_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53461676         7/6  15:02     13      1     17      _     31 53462282.0 ... 53462980.0
+sherman.thompson 2019_May_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53461703         7/6  15:03     12      1     18      _     31 53462275.0 ... 53462982.0
+sherman.thompson 2019_May_PEM-EX_ADC_0_12_OUT_DQ_H1.dag+53461726               7/6  15:03     11      1     19      _     31 53462258.0 ... 53463062.0
+sherman.thompson 2019_May_PEM-EX_ADC_0_12_OUT_DQ_L1.dag+53461762               7/6  15:03      8      4     19      _     31 53462134.0 ... 53463012.0
+sherman.thompson 2019_May_PEM-EY_ADC_0_12_OUT_DQ_H1.dag+53461783               7/6  15:03     11      1     19      _     31 53462284.0 ... 53463108.0
+sherman.thompson 2019_May_PEM-EY_ADC_0_12_OUT_DQ_L1.dag+53461810               7/6  15:03      9      1     21      _     31 53462255.0 ... 53463112.0
+sherman.thompson 2019_June_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53461982        7/6  15:04      4      1     25      _     30 53462253.0 ... 53463241.0
+sherman.thompson 2019_June_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53462012        7/6  15:05      5      1     24      _     30 53462281.0 ... 53463272.0
+sherman.thompson 2019_June_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53462037        7/6  15:05      3      1     26      _     30 53462263.0 ... 53463293.0
+sherman.thompson 2019_June_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53462065        7/6  15:05      2      1     27      _     30 53462256.0 ... 53463294.0
+sherman.thompson 2019_June_CAL-DELTAL_EXTERNAL_DQ_H1.dag+53462098              7/6  15:05      1      2     27      _     30 53462213.0 ... 53463328.0
+sherman.thompson 2019_June_CAL-DELTAL_EXTERNAL_DQ_L1.dag+53462129              7/6  15:06      _      2     28      _     30 53462224.0 ... 53463420.0
+sherman.thompson 2019_June_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_H1.dag+53462144         7/6  15:06      _      1     29      _     30 53462271.0 ... 53463378.0
+sherman.thompson 2019_June_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_L1.dag+53462178         7/6  15:06      _      1     29      _     30 53462288.0 ... 53463412.0
+sherman.thompson 2019_June_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53462207        7/6  15:06      _      _     30      _     30 53462313.0 ... 53463458.0
+sherman.thompson 2019_June_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53462234        7/6  15:06      _      _     30      _     30 53462348.0 ... 53463508.0
+sherman.thompson 2019_June_PEM-CS_MAG_LVEA_VERTEX_X_DQ_H1.dag+53462254         7/6  15:07      _      _     30      _     30 53462356.0 ... 53463451.0
+sherman.thompson 2019_June_PEM-CS_MAG_LVEA_VERTEX_X_DQ_L1.dag+53462285         7/6  15:07      _      _     30      _     30 53462393.0 ... 53463530.0
+sherman.thompson 2019_June_SUS-ETMY_L3_MASTER_OUT_LL_DQ_H1.dag+53462305        7/6  15:07      _      _     30      _     30 53462407.0 ... 53463529.0
+sherman.thompson 2019_June_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1.dag+53462333        7/6  15:07      _      _     30      _     30 53462436.0 ... 53463536.0
+sherman.thompson 2019_June_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53462362        7/6  15:07      _      _     30      _     30 53462462.0 ... 53463542.0
+sherman.thompson 2019_June_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53462386        7/6  15:07      _      _     30      _     30 53462502.0 ... 53463596.0
+sherman.thompson 2019_June_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53462412        7/6  15:07      _      _     30      _     30 53462515.0 ... 53463678.0
+sherman.thompson 2019_June_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53462434        7/6  15:08      _      _     30      _     30 53462518.0 ... 53463651.0
+sherman.thompson 2019_June_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53462453        7/6  15:08      _      _     30      _     30 53462576.0 ... 53463693.0
+sherman.thompson 2019_June_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53462475        7/6  15:08      _      _     30      _     30 53462592.0 ... 53463717.0
+sherman.thompson 2019_June_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_H1.dag+53462510         7/6  15:08      _      _     30      _     30 53462628.0 ... 53463749.0
+sherman.thompson 2019_June_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_L1.dag+53462534         7/6  15:08      _      _     30      _     30 53462656.0 ... 53463859.0
+sherman.thompson 2019_June_DCS-CALIB_STRAIN_C01_H1.dag+53462561                7/6  15:08      _      _     30      _     30 53462683.0 ... 53463735.0
+sherman.thompson 2019_June_DCS-CALIB_STRAIN_C01_L1.dag+53462589                7/6  15:08      _      _     30      _     30 53462705.0 ... 53463809.0
+sherman.thompson 2019_June_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53462621        7/6  15:09      _      _     30      _     30 53462744.0 ... 53463875.0
+sherman.thompson 2019_June_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53462649        7/6  15:09      _      _     30      _     30 53462781.0 ... 53463878.0
+sherman.thompson 2019_June_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53462677        7/6  15:09      _      _     30      _     30 53462806.0 ... 53463842.0
+sherman.thompson 2019_June_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53462712        7/6  15:09      _      _     30      _     30 53462833.0 ... 53463935.0
+sherman.thompson 2019_June_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53462739        7/6  15:09      _      _     30      _     30 53462882.0 ... 53463972.0
+sherman.thompson 2019_June_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53462768        7/6  15:10      _      _     30      _     30 53462898.0 ... 53463969.0
+sherman.thompson 2019_June_PEM-EX_ADC_0_12_OUT_DQ_H1.dag+53462802              7/6  15:10      _      _     30      _     30 53462930.0 ... 53464040.0
+sherman.thompson 2019_June_PEM-EX_ADC_0_12_OUT_DQ_L1.dag+53462830              7/6  15:10      _      _     30      _     30 53462960.0 ... 53464054.0
+sherman.thompson 2019_June_PEM-EY_ADC_0_12_OUT_DQ_H1.dag+53462859              7/6  15:10      _      _     30      _     30 53462986.0 ... 53464146.0
+sherman.thompson 2019_June_PEM-EY_ADC_0_12_OUT_DQ_L1.dag+53462886              7/6  15:10      _      _     30      _     30 53463011.0 ... 53464118.0
+sherman.thompson 2019_July_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53463101        7/6  15:12      _      _     31      _     31 53463197.0 ... 53464350.0
+sherman.thompson 2019_July_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53463130        7/6  15:12      _      _     31      _     31 53463227.0 ... 53464392.0
+sherman.thompson 2019_July_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53463152        7/6  15:12      _      _     31      _      1 53463258.0 ... 53464375.0
+sherman.thompson 2019_July_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53463179        7/6  15:12      _      _     31      _      1 53463285.0 ... 53464418.0
+sherman.thompson 2019_July_CAL-DELTAL_EXTERNAL_DQ_H1.dag+53463200              7/6  15:12      _      _     31      _      1 53463318.0 ... 53464446.0
+sherman.thompson 2019_July_CAL-DELTAL_EXTERNAL_DQ_L1.dag+53463228              7/6  15:13      _      _     31      _      1 53463340.0 ... 53464411.0
+sherman.thompson 2019_July_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_H1.dag+53463260         7/6  15:13      _      _     31      _      1 53463371.0 ... 53464528.0
+sherman.thompson 2019_July_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_L1.dag+53463283         7/6  15:13      _      _     31      _      1 53463395.0 ... 53464492.0
+sherman.thompson 2019_July_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53463308        7/6  15:13      _      _     31      _      1 53463415.0 ... 53464599.0
+sherman.thompson 2019_July_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53463339        7/6  15:13      _      _     31      _      1 53463441.0 ... 53464548.0
+sherman.thompson 2019_July_PEM-CS_MAG_LVEA_VERTEX_X_DQ_H1.dag+53463366         7/6  15:14      _      _     31      _      1 53463475.0 ... 53464594.0
+sherman.thompson 2019_July_PEM-CS_MAG_LVEA_VERTEX_X_DQ_L1.dag+53463391         7/6  15:14      _      _     31      _      1 53463495.0 ... 53464544.0
+sherman.thompson 2019_July_SUS-ETMY_L3_MASTER_OUT_LL_DQ_H1.dag+53463419        7/6  15:14      _      _     31      _      1 53463520.0 ... 53464632.0
+sherman.thompson 2019_July_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1.dag+53463444        7/6  15:14      _      _     31      _      1 53463545.0 ... 53464644.0
+sherman.thompson 2019_July_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53463464        7/6  15:14      _      _     31      _      1 53463564.0 ... 53464649.0
+sherman.thompson 2019_July_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53463489        7/6  15:14      _      _     31      _      1 53463580.0 ... 53464692.0
+sherman.thompson 2019_July_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53463506        7/6  15:14      _      _     31      _      1 53463610.0 ... 53464641.0
+sherman.thompson 2019_July_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53463524        7/6  15:14      _      _     31      _      1 53463618.0 ... 53464664.0
+sherman.thompson 2019_July_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53463556        7/6  15:15      _      _     31      _      1 53463654.0 ... 53464709.0
+sherman.thompson 2019_July_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53463572        7/6  15:15      _      _     31      _      1 53463676.0 ... 53464706.0
+sherman.thompson 2019_July_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_H1.dag+53463600         7/6  15:15      _      _     31      _      1 53463705.0 ... 53464787.0
+sherman.thompson 2019_July_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_L1.dag+53463626         7/6  15:15      _      _     31      _      1 53463741.0 ... 53464863.0
+sherman.thompson 2019_July_DCS-CALIB_STRAIN_C01_H1.dag+53463644                7/6  15:15      _      _     31      _      1 53463753.0 ... 53464832.0
+sherman.thompson 2019_July_DCS-CALIB_STRAIN_C01_L1.dag+53463673                7/6  15:15      _      _     31      _      1 53463776.0 ... 53464848.0
+sherman.thompson 2019_July_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53463688        7/6  15:15      _      _     31      _      1 53463793.0 ... 53464780.0
+sherman.thompson 2019_July_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53463723        7/6  15:15      _      _     31      _      1 53463837.0 ... 53464810.0
+sherman.thompson 2019_July_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53463746        7/6  15:15      _      _     31      _     31 53463844.0 ... 53464949.0
+sherman.thompson 2019_July_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53463767        7/6  15:15      _      _     31      _      1 53463863.0 ... 53464859.0
+sherman.thompson 2019_July_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53463790        7/6  15:16      _      _     31      _      1 53463897.0 ... 53464938.0
+sherman.thompson 2019_July_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53463810        7/6  15:16      _      _     31      _      1 53463911.0 ... 53464904.0
+sherman.thompson 2019_July_PEM-EX_ADC_0_12_OUT_DQ_H1.dag+53463847              7/6  15:16      _      _     31      _     31 53463950.0 ... 53464999.0
+sherman.thompson 2019_July_PEM-EX_ADC_0_12_OUT_DQ_L1.dag+53463867              7/6  15:16      _      _     31      _     31 53463999.0 ... 53465014.0
+sherman.thompson 2019_July_PEM-EY_ADC_0_12_OUT_DQ_H1.dag+53463900              7/6  15:16      _      _     31      _     31 53464005.0 ... 53465022.0
+sherman.thompson 2019_July_PEM-EY_ADC_0_12_OUT_DQ_L1.dag+53463931              7/6  15:16      _      _     31      _     31 53464044.0 ... 53465108.0
+sherman.thompson 2019_August_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53464295      7/6  15:17      _      _     31      _     31 53464393.0 ... 53465419.0
+sherman.thompson 2019_August_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53464318      7/6  15:17      _      _     31      _     31 53464413.0 ... 53465466.0
+sherman.thompson 2019_August_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53464345      7/6  15:17      _      _     31      _     31 53464435.0 ... 53465451.0
+sherman.thompson 2019_August_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53464365      7/6  15:17      _      _     31      _     31 53464449.0 ... 53465542.0
+sherman.thompson 2019_August_CAL-DELTAL_EXTERNAL_DQ_H1.dag+53464388            7/6  15:18      _      _     31      _     31 53464479.0 ... 53465558.0
+sherman.thompson 2019_August_CAL-DELTAL_EXTERNAL_DQ_L1.dag+53464410            7/6  15:18      _      _     31      _     31 53464519.0 ... 53465572.0
+sherman.thompson 2019_August_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_H1.dag+53464432       7/6  15:18      _      _     31      _     31 53464537.0 ... 53465623.0
+sherman.thompson 2019_August_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_L1.dag+53464452       7/6  15:18      _      _     31      _     31 53464556.0 ... 53465491.0
+sherman.thompson 2019_August_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53464480      7/6  15:18      _      _     31      _     31 53464593.0 ... 53465553.0
+sherman.thompson 2019_August_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53464505      7/6  15:18      _      _     31      _     31 53464609.0 ... 53465688.0
+sherman.thompson 2019_August_PEM-CS_MAG_LVEA_VERTEX_X_DQ_H1.dag+53464533       7/6  15:18      _      _     31      _     31 53464629.0 ... 53465726.0
+sherman.thompson 2019_August_PEM-CS_MAG_LVEA_VERTEX_X_DQ_L1.dag+53464554       7/6  15:18      _      _     31      _     31 53464658.0 ... 53465735.0
+sherman.thompson 2019_August_SUS-ETMY_L3_MASTER_OUT_LL_DQ_H1.dag+53464580      7/6  15:18      _      _     31      _     31 53464673.0 ... 53465764.0
+sherman.thompson 2019_August_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1.dag+53464608      7/6  15:19      _      _     31      _     31 53464705.0 ... 53465837.0
+sherman.thompson 2019_August_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53464630      7/6  15:19      _      _     31      _     31 53464722.0 ... 53465829.0
+sherman.thompson 2019_August_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53464656      7/6  15:19      _      _     31      _     31 53464752.0 ... 53465789.0
+sherman.thompson 2019_August_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53464679      7/6  15:19      _      _     31      _     31 53464762.0 ... 53465750.0
+sherman.thompson 2019_August_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53464700      7/6  15:19      _      _     31      _     31 53464782.0 ... 53465901.0
+sherman.thompson 2019_August_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53464719      7/6  15:19      _      _     31      _     31 53464814.0 ... 53465887.0
+sherman.thompson 2019_August_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53464742      7/6  15:19      _      _     31      _     31 53464843.0 ... 53465898.0
+sherman.thompson 2019_August_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_H1.dag+53464766       7/6  15:19      _      _     31      _     31 53464851.0 ... 53465976.0
+sherman.thompson 2019_August_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_L1.dag+53464789       7/6  15:19      _      _     31      _     31 53464891.0 ... 53465985.0
+sherman.thompson 2019_August_DCS-CALIB_STRAIN_C01_H1.dag+53464812              7/6  15:19      _      _     31      _     31 53464917.0 ... 53466077.0
+sherman.thompson 2019_August_DCS-CALIB_STRAIN_C01_L1.dag+53464820              7/6  15:20      _      _     31      _     31 53464935.0 ... 53466091.0
+sherman.thompson 2019_August_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53464840      7/6  15:20      _      _     31      _     31 53464939.0 ... 53466032.0
+sherman.thompson 2019_August_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53464871      7/6  15:20      _      _     31      _     31 53464956.0 ... 53466076.0
+sherman.thompson 2019_August_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53464896      7/6  15:20      _      _     31      _     31 53464990.0 ... 53466108.0
+sherman.thompson 2019_August_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53464906      7/6  15:20      _      _     31      _     31 53465008.0 ... 53466126.0
+sherman.thompson 2019_August_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53464937      7/6  15:20      _      _     31      _     31 53465039.0 ... 53466204.0
+sherman.thompson 2019_August_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53464963      7/6  15:21      _      _     31      _     31 53465060.0 ... 53466168.0
+sherman.thompson 2019_August_PEM-EX_ADC_0_12_OUT_DQ_H1.dag+53464987            7/6  15:21      _      _     31      _     31 53465077.0 ... 53466171.0
+sherman.thompson 2019_August_PEM-EX_ADC_0_12_OUT_DQ_L1.dag+53465007            7/6  15:21      _      _     31      _     31 53465103.0 ... 53466212.0
+sherman.thompson 2019_August_PEM-EY_ADC_0_12_OUT_DQ_H1.dag+53465032            7/6  15:21      _      _     31      _     31 53465134.0 ... 53466270.0
+sherman.thompson 2019_August_PEM-EY_ADC_0_12_OUT_DQ_L1.dag+53465055            7/6  15:21      _      _     31      _     31 53465133.0 ... 53466245.0
+sherman.thompson 2019_September_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53465245   7/6  15:23      _      _     30      _     30 53465349.0 ... 53466442.0
+sherman.thompson 2019_September_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53465271   7/6  15:23      _      _     30      _     30 53465370.0 ... 53466411.0
+sherman.thompson 2019_September_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53465298   7/6  15:23      _      _     30      _     30 53465405.0 ... 53466421.0
+sherman.thompson 2019_September_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53465320   7/6  15:23      _      _     30      _     30 53465433.0 ... 53466522.0
+sherman.thompson 2019_September_CAL-DELTAL_EXTERNAL_DQ_H1.dag+53465342         7/6  15:23      _      _     30      _     30 53465449.0 ... 53466460.0
+sherman.thompson 2019_September_CAL-DELTAL_EXTERNAL_DQ_L1.dag+53465363         7/6  15:24      _      _     30      _     30 53465460.0 ... 53466575.0
+sherman.thompson 2019_September_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_H1.dag+53465385    7/6  15:24      _      _     30      _     30 53465493.0 ... 53466543.0
+sherman.thompson 2019_September_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_L1.dag+53465409    7/6  15:24      _      _     30      _     30 53465512.0 ... 53466532.0
+sherman.thompson 2019_September_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53465437   7/6  15:24      _      _     30      _     30 53465555.0 ... 53466591.0
+sherman.thompson 2019_September_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53465463   7/6  15:24      _      _     30      _     30 53465576.0 ... 53466594.0
+sherman.thompson 2019_September_PEM-CS_MAG_LVEA_VERTEX_X_DQ_H1.dag+53465496    7/6  15:24      _      _     30      _     30 53465615.0 ... 53466585.0
+sherman.thompson 2019_September_PEM-CS_MAG_LVEA_VERTEX_X_DQ_L1.dag+53465522    7/6  15:24      _      _     30      _     30 53465652.0 ... 53466615.0
+sherman.thompson 2019_September_SUS-ETMY_L3_MASTER_OUT_LL_DQ_H1.dag+53465552   7/6  15:24      _      _     30      _     30 53465659.0 ... 53466611.0
+sherman.thompson 2019_September_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1.dag+53465587   7/6  15:25      _      _     30      _     30 53465698.0 ... 53466685.0
+sherman.thompson 2019_September_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53465609   7/6  15:25      _      _     30      _     30 53465731.0 ... 53466620.0
+sherman.thompson 2019_September_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53465631   7/6  15:25      _      _     30      _     30 53465761.0 ... 53466705.0
+sherman.thompson 2019_September_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53465664   7/6  15:25      _      _     30      _     30 53465783.0 ... 53466679.0
+sherman.thompson 2019_September_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53465696   7/6  15:26      _      _     30      _     30 53465816.0 ... 53466693.0
+sherman.thompson 2019_September_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53465730   7/6  15:26      _      _     30      _     30 53465844.0 ... 53466692.0
+sherman.thompson 2019_September_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53465762   7/6  15:26      _      _     30      _     30 53465863.0 ... 53466728.0
+sherman.thompson 2019_September_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_H1.dag+53465790    7/6  15:26      _      _     30      _     30 53465881.0 ... 53466704.0
+sherman.thompson 2019_September_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_L1.dag+53465815    7/6  15:27      _      _     30      _     30 53465918.0 ... 53466733.0
+sherman.thompson 2019_September_DCS-CALIB_STRAIN_C01_H1.dag+53465835           7/6  15:27      _      _     30      _     30 53465935.0 ... 53466730.0
+sherman.thompson 2019_September_DCS-CALIB_STRAIN_C01_L1.dag+53465858           7/6  15:27      _      _     30      _     30 53465956.0 ... 53466743.0
+sherman.thompson 2019_September_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53465889   7/6  15:27      _      _     30      _     30 53465990.0 ... 53466744.0
+sherman.thompson 2019_September_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53465910   7/6  15:27      _      _     30      _     30 53466025.0 ... 53466739.0
+sherman.thompson 2019_September_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53465936   7/6  15:27      _      _     30      _     30 53466052.0 ... 53466752.0
+sherman.thompson 2019_September_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53465958   7/6  15:27      _      _     30      _     30 53466079.0 ... 53466764.0
+sherman.thompson 2019_September_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53465993   7/6  15:27      _      _     30      _     30 53466098.0 ... 53466753.0
+sherman.thompson 2019_September_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53466017   7/6  15:28      _      _     30      _     30 53466128.0 ... 53466761.0
+sherman.thompson DAG: 53466043                                                 7/6  15:28      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466073                                                 7/6  15:28      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466093                                                 7/6  15:28      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466120                                                 7/6  15:28      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466315                                                 7/6  15:30      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466335                                                 7/6  15:30      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466353                                                 7/6  15:30      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466378                                                 7/6  15:30      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466399                                                 7/6  15:30      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466425                                                 7/6  15:30      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466446                                                 7/6  15:31      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466456                                                 7/6  15:31      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466474                                                 7/6  15:31      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466497                                                 7/6  15:31      _      _      _      _      1 0.0
+sherman.thompson 2019_November_PEM-CS_MAG_LVEA_VERTEX_X_DQ_H1.dag+53466514     7/6  15:31      _      _     30      _      1 53736488.0 ... 53736633.0
+sherman.thompson 2019_November_PEM-CS_MAG_LVEA_VERTEX_X_DQ_L1.dag+53466534     7/6  15:31      _      _     30      _      1 53819337.0 ... 53819520.0
+sherman.thompson DAG: 53466552                                                 7/6  15:31      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466571                                                 7/6  15:31      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466581                                                 7/6  15:32      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466597                                                 7/6  15:32      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466613                                                 7/6  15:32      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466630                                                 7/6  15:32      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466638                                                 7/6  15:32      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466671                                                 7/6  15:34      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466681                                                 7/6  15:34      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466698                                                 7/6  15:34      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466708                                                 7/6  15:35      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466717                                                 7/6  15:35      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466725                                                 7/6  15:35      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466736                                                 7/6  15:36      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466747                                                 7/6  15:37      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466750                                                 7/6  15:37      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466756                                                 7/6  15:37      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466757                                                 7/6  15:37      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466760                                                 7/6  15:37      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466763                                                 7/6  15:37      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466765                                                 7/6  15:43      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466766                                                 7/6  15:43      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466767                                                 7/6  15:43      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466768                                                 7/6  15:43      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466769                                                 7/6  15:44      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466770                                                 7/6  15:44      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466771                                                 7/6  15:44      _      _      _      _      1 0.0
+sherman.thompson 2019_December_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_L1.dag+53466772     7/6  15:44      _      _     31      _      1 53715045.0 ... 53715148.0
+sherman.thompson 2019_December_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53466773    7/6  15:45      _      _     31      _      1 53738101.0 ... 53738216.0
+sherman.thompson 2019_December_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53466774    7/6  15:45      _      _     31      _      1 53744388.0 ... 53744522.0
+sherman.thompson 2019_December_PEM-CS_MAG_LVEA_VERTEX_X_DQ_H1.dag+53466775     7/6  15:45      _      _     31      _      1 53747426.0 ... 53747528.0
+sherman.thompson 2019_December_PEM-CS_MAG_LVEA_VERTEX_X_DQ_L1.dag+53466776     7/6  15:46      _      _     31      _      1 53747685.0 ... 53747821.0
+sherman.thompson 2019_December_SUS-ETMY_L3_MASTER_OUT_LL_DQ_H1.dag+53466777    7/6  15:46      _      _     31      _      1 53748127.0 ... 53748286.0
+sherman.thompson 2019_December_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1.dag+53466778    7/6  15:46      _      _     31      _      1 53753355.0 ... 53753424.0
+sherman.thompson 2019_December_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53466779    7/6  15:46      _      _     31      _      1 53757214.0 ... 53757307.0
+sherman.thompson 2019_December_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53466780    7/6  15:46      _      _     31      _      1 53764569.0 ... 53764692.0
+sherman.thompson 2019_December_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53466781    7/6  15:48      _      _     31      _      1 53764943.0 ... 53765089.0
+sherman.thompson 2019_December_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53466782    7/6  15:48      _      _     31      _      1 53774698.0 ... 53774930.0
+sherman.thompson 2019_December_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_H1.dag+53466784    7/6  15:48      _      _     31      _      1 53777232.0 ... 53777378.0
+sherman.thompson 2019_December_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_L1.dag+53466786    7/6  15:48      _      _     31      _      1 53777925.0 ... 53778078.0
+sherman.thompson 2019_December_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_H1.dag+53466788     7/6  15:48      _      _     31      _      1 53778542.0 ... 53778715.0
+sherman.thompson 2019_December_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_L1.dag+53466790     7/6  15:49      _      _     31      _      1 53797397.0 ... 53797652.0
+sherman.thompson 2019_December_DCS-CALIB_STRAIN_C01_H1.dag+53466791            7/6  15:49      _      _     31      _      1 53813916.0 ... 53814065.0
+sherman.thompson 2019_December_DCS-CALIB_STRAIN_C01_L1.dag+53466792            7/6  15:49      _      _     31      _      1 53817778.0 ... 53817941.0
+sherman.thompson 2019_December_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53466793    7/6  15:50      _      _     31      _      1 53820281.0 ... 53820445.0
+sherman.thompson 2019_December_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53466794    7/6  15:51      _      _     31      _      1 53831201.0 ... 53831309.0
+sherman.thompson 2019_December_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53466795    7/6  15:51      _      _     31      _      1 53865059.0 ... 53865181.0
+sherman.thompson 2019_December_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53466797    7/6  15:51      _      _     31      _      1 53868807.0 ... 53868882.0
+sherman.thompson DAG: 53466799                                                 7/6  15:51      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466810                                                 7/6  15:51      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466811                                                 7/6  15:52      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466812                                                 7/6  15:52      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466813                                                 7/6  15:52      _      _      _      _      1 0.0
+sherman.thompson DAG: 53466814                                                 7/6  15:52      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467171                                                 7/6  15:56      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467172                                                 7/6  15:56      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467173                                                 7/6  15:56      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467174                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467175                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467176                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467177                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467178                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467179                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467180                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467181                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467182                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467183                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467184                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467185                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467186                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467187                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467188                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467189                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467190                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467191                                                 7/6  15:57      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467192                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467193                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467194                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467195                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467196                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467197                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467198                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467199                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467200                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467201                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467202                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467203                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467204                                                 7/6  15:58      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467214                                                 7/6  16:01      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467215                                                 7/6  16:01      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467216                                                 7/6  16:01      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467218                                                 7/6  16:01      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467219                                                 7/6  16:01      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467220                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467221                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467223                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467224                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467225                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467226                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467227                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467228                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467229                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467230                                                 7/6  16:02      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467232                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467233                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467234                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467235                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467236                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467238                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467239                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467240                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467241                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467242                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467243                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467244                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467245                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467246                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467247                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467248                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467249                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467250                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467251                                                 7/6  16:03      _      _      _      _      1 0.0
+sherman.thompson 2020_March_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53467305       7/6  16:04      _      _     31      _      1 53778241.0 ... 53778467.0
+sherman.thompson 2020_March_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53467306       7/6  16:04      _      _     31      _      1 53786399.0 ... 53786540.0
+sherman.thompson 2020_March_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_H1.dag+53467307       7/6  16:05      _      _     31      _      1 53796264.0 ... 53796411.0
+sherman.thompson 2020_March_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_L1.dag+53467308       7/6  16:05      _      _     31      _      1 53804630.0 ... 53804772.0
+sherman.thompson 2020_March_CAL-DELTAL_EXTERNAL_DQ_H1.dag+53467309             7/6  16:05      _      _     31      _      1 53813961.0 ... 53814147.0
+sherman.thompson 2020_March_CAL-DELTAL_EXTERNAL_DQ_L1.dag+53467310             7/6  16:05      _      _     31      _      1 53818582.0 ... 53818784.0
+sherman.thompson 2020_March_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_H1.dag+53467311        7/6  16:05      _      _     31      _      1 53823600.0 ... 53823788.0
+sherman.thompson 2020_March_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_L1.dag+53467312        7/6  16:05      _      _     31      _      1 53864546.0 ... 53864648.0
+sherman.thompson 2020_March_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_H1.dag+53467313       7/6  16:05      _      _     31      _      1 53865403.0 ... 53865574.0
+sherman.thompson 2020_March_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_L1.dag+53467314       7/6  16:05      _      _     31      _      1 53865990.0 ... 53866186.0
+sherman.thompson DAG: 53467315                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467316                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467317                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467318                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467319                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467320                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467321                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467322                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467323                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467324                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467325                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467326                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467327                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467328                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467329                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467330                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467331                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467333                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467334                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467335                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467336                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467337                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467338                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467339                                                 7/6  16:05      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467341                                                 7/6  16:06      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467342                                                 7/6  16:06      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467343                                                 7/6  16:06      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467344                                                 7/6  16:06      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467345                                                 7/6  16:07      _      _      _      _      1 0.0
+sherman.thompson DAG: 53467346                                                 7/6  16:07      _      _      _      _      1 0.0

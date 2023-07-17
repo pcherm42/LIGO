@@ -1,0 +1,2 @@
+JOB 1 yearcompare.sub
+VARS 1 auxifo="L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ" auxlocation="L1" auxfoldS="8" auxchannel="PEM-CS_MAG_LVEA_VERTEX_X_DQ" auxNFFT="8192" primifo="L1:CAL-DELTAL_EXTERNAL_DQ" primlocation="L1" primfoldS="8" primchannel="CAL-DELTAL_EXTERNAL_DQ" primNFFT="16384" currentDir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3"

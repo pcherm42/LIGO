@@ -1,0 +1,23 @@
+#!/bin/bash
+
+MATLAB_ROOT=/ldcg/matlab_r2020a
+export MATLAB_ROOT
+ARCH=glnxa64
+export ARCH
+
+LD_LIBRARY_PATH=${MATLAB_ROOT}/sys/opengl/lib/glnxa64:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${MATLAB_ROOT}/sys/java/jre/glnxa64/jre/lib/amd64:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${MATLAB_ROOT}/sys/java/jre/glnxa64/jre/lib/amd64/server:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${MATLAB_ROOT}/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${MATLAB_ROOT}/bin/glnxa64:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${MATLAB_ROOT}/sys/os/glnxa64:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+LD_LIBRARY_PATH=${MATLAB_ROOT}/runtime/glnxa64:${LD_LIBRARY_PATH}
+export LD_LIBRARY_PATH
+XAPPLRESDIR=${MATLAB_ROOT}/X11/app-defaults
+export XAPPLRESDIR

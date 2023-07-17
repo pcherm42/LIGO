@@ -1,0 +1,132 @@
+
+What to do with noncorrelative data? Hard to find any correlation. Especially H1
+    Some sides seem to favor an only positive dotproduct or only negative dot product.
+
+DONE Jan 22nd in CS
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51162
+    https://dcc.ligo.org/DocDB/0165/G2000023/038/WEEK38.pdf
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51149
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51173
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51128
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51141
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51126
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51097
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51150
+
+    PUT IN: https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51162
+            https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51128
+            https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51126
+
+https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/DotProducts/clickme/YearCompare--H1--CAL-DELTAL_EXTERNAL_DQ--PEM-EY_MAG_EBAY_SUSRACK_Y_DQ.html Day 200 investigation
+
+DONE EX Dec 16th Quet time to Jan 22nd DONE
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50497
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50532
+    ***** https://services2.ligo-la.caltech.edu/LLO/workpermits/view.php?permit_id=5926 *I think I missed this.
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50557 ** Another one I overlooked
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50507
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50520
+    https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50552
+
+    PUT IN: https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50507
+            https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50520
+            https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50557 **
+
+Develop dot product in frequency space?
+
+Develop dot-product-distribution app
+
+
+https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/DotProducts/clickme/YearCompare--L1--CAL-DELTAL_EXTERNAL_DQ--PEM-EY_ADC_0_12_OUT_DQ.html Day 200 jump!!! Sudden drop day 120!!!
+
+Maybe day 50-100 https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/DotProducts/clickme/YearCompare--L1--CAL-DELTAL_EXTERNAL_DQ--PEM-EX_ADC_0_12_OUT_DQ.html 
+
+
+Look at the lines list for this interfereometer
+Check with how many lines move together with a script
+Verical line miss days
+make a predicion as to what you would see
+smaller comb frequnecy
+
+I want to figure out how to actually replicate my calcuations.
+
+subtract out dot product, then redot to see if the contribution went away. -- dont make the subtraction unless the dot product passes a certain threshold
+- look for the stepwise underlying pattern, focus in on a couple of days -- check and see before the bandpass data.
+- try and see it with your eyes in the auxiliary channel -- yes you can definitely see something that matches the 9Hz artifact you see in the real data Check
+
+- Next step is to ensure the frequencies and the slopes by figuring out the vertical pixels/second which you can do with image editing software
+- Maybe figure out how to do a triangle wave. That would be pretty cool
+
+###########MAKE A ZOOM IN FUNCTION WHERE YOU TAKE A SUBMATRIX TO DETERMINE IF THERE ARE SOME KIND OF FACTORS INTRODUCED BY DOWNSAMPLING.############
+Results: https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-CS_MAG_EBAY_SUSRACK_X_DQ.png 
+    Patterns seem to diappear, but here there remains a simple ticking in then beginning.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-CS_MAG_LVEA_VERTEX_X_DQ.png
+    Here the comb structure is here, but much richer and subtle. I might do some image analysis on this guy
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-CS_MAG_LVEA_VERTEX_Y_DQ.png
+    This one has an even better slope factor.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_X_DQ.png
+    This one seems to have some horizontal lines at the end there
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ.png
+    This one seems to have lines all over the place. first they appear every two seconds before shifting interestingly later in the run
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ.png
+    Great horizontal lines on this boy.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EY_ADC_0_12_OUT_DQ.png
+    Lines appear coming back in october
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EY_MAG_EBAY_SUSRACK_X_DQ.png
+    some whisper of horizontal lines here, but without extra image analysis, this may not be the best go. I also do not see any sloping lines. 
+    Some horizontal lines even extend all the way across
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ.png
+    This one has a ton of interesting behavior, from subdivisions early in the year to potential sloping at interesting moments.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ.png
+    potentially interesting behavior, sloping around march 5th
+
+
+
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-CS_MAG_EBAY_SUSRACK_X_DQ.png
+    Has that strange one second strong grouping. Interesting how the lines reappear
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ.png
+    Looked for any kind of sloping behavior, not seeing any. However, same sort of concentration at one second.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-CS_MAG_LVEA_VERTEX_Z_DQ.png
+    Strongest signal overall. Best data. Dynamic behavior with several interesting sectors.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_X_DQ.png
+    Much more detailed behavior, 05-20 Jun near end you see "wiggles" in the data.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ.png
+    Check out where it first exhibits the mixed up behavior. There we see that the slope starts out positive but then turns down.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ.png
+    same wiggle, same sloping change
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-EY_ADC_0_12_OUT_DQ.png
+    I need to see if this blocking behavior.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ.png
+    All three axies are really similar, but here we also see that blocking behavior.
+    https://ldas-jobs.ligo.caltech.edu/~sherman.thompson/YearDotshare/YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_SUS-ETMY_L3_MASTER_OUT_LL_DQ.png
+    This one makes me a little concerned because I begin to winder if a lot of what we see are just the artifacts from the channel leaking through the dot product.
+
+    I think the final channel makes me want to do the dot product filtering and produce graphs for each step. Beginning with removing the suspension channel for L1
+    
+
+Another thing is that each of the peaks has become significantly wider.
+
+
+
+- Weigh the y columns by the dot product darkness
+
+
+For the dotfilter algorithm:
+
+- Figure out how to determine the accuracy of the data: maybe play with the correlation factors starting small and comparing the 
+-
+
+
+
+
+
+
+
+#############################
+
+
+- fix times: The times are made up anayway! Proof: trace fract through their creation
+- visualize channels
+- reorder channels
+- continue observations
+- dotproduct in frequency space?

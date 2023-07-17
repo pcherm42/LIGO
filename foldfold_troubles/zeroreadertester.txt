@@ -1,0 +1,1 @@
+sh run_zeroreader.sh /ldcg/matlab_r2020a ../files/matfiles/PEM-EX_MAG_EBAY_SUSRACK_Z_DQ/H1/July-05-2019_folded_veto_PartialFold_8-5.000000_8sec.mat ../files/matfiles/PEM-EX_MAG_EBAY_SUSRACK_Z_DQ/H1/July-05-2019_folded_veto_PartialFold_8-5.000000_8sec.mat

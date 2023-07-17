@@ -1,0 +1,14 @@
+executable = $(homeDir)/matlab/matlab_wrapper.sh
+output = $(homeDir)/out/$(jobid).out
+error = $(homeDir)/out/$(jobid).err
+log = $(homeDir)/out/$(jobid).log
+request_memory =64GB
+notification = never
+getenv = True
+universe = vanilla
+arguments = $(startTime) $(endTime) $(foldSize) $(Fs)  $(times_zoom) $(chanName) $(segFileName) $(matfilePath) $(numPartialFolds) $(homeDir)
+accounting_group = ligo.prod.o2.detchar.linefind.folding
+should_transfer_files = IF_NEEDED
+when_to_transfer_output = ON_EXIT
++maxhours = 5
+queue 1

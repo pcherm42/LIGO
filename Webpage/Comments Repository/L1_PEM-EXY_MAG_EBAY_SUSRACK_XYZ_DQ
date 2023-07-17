@@ -1,0 +1,29 @@
+In CS, EY, and EX MAG_SUSRACK channels (in all three axes), we see a period of low absolute value dot product beginning 16-12-2019 (valid day 200) and ending 22-01-2020 (valid day 240).
+
+This initial drop may be caused by the following entries:
+<br>
+
+<a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50555">"BIO configuration board (D1900166) removed from LSC POP_A (9,45) in ISC-R2-U22 cable ISC_52 reinstalled"</a>
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50965">To note, LSC POP_A (9,45), ISC-R2-U22 was reverted back to the cable as there is a difference when the configuration board is used.</a>
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50486">WP5917 - Hardwire Whitening chassis settings</a>
+<br>
+
+Much of the work on 18-12-2019 is localized to LSC POP_A (9,45), and there is an entry related to LSC POP_A (9,45) on 15-01-2020. Also important to note is that there was a <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50557">special emphasis on reaching low noise</a> which seems to be reflected in the data. However, in each of the above cases, the period of low dot product correlation seems to end on 22-01-2020. The following entries are potential explanations:<br>
+
+<br> <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51162">Problems still persist with temperature control in PSL</a>
+<br>  <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51128">Investigating RM1 suspension LR channel VoltMon excess noise</a>
+<br>  <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51126">Replace ITMY PUM Coil Driver with chassis modified with new NoiseMon-v2</a>
+
+<br>
+
+
+We see a jump in dot product around valid day 275, corresponding to 18-02-2020 and ending 22-02-2020. The following entry is likley the culprit:
+<br>
+18-02-2020: <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51699">"YEND Complete, PEM voltage monitor is now monitoring the ESD +24VDC/MV (moved from Beckhoff 24V power strip)"</a>
+
+This same jump is seen in the X and Y ends, in all axes of both channels. These changes were likley all related to work permit 6026: <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51688">"Install adapter cable to enable PEM voltage monitoring of the +/-24VDC supplied to the ESD LV Drive chassis and connect to PEM 10x AA chassis."</a>
+
+Both ends experienced similar jumps in all three axes. This indicates that the different voltage monitoring of the PEM channels likely caused the jump.
+
+
+

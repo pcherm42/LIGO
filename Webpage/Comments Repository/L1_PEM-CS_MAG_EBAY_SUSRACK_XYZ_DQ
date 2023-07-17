@@ -1,0 +1,57 @@
+L1_PEM-CS_MAG_EBAY_SUSRACK_XYZ_DQ
+
+
+
+The first jump we see around valid day 45 corresponds to dates 18-05-2019 through 19-05-2019. This could possibly be due to a power chasis swap related to the following entry:
+
+<br>
+
+<a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=46056">"MC2, PR2, and SR2 OSEM problems"</a>
+
+<br>
+
+This also has accociated FRS Ticket <a href="https://services1.ligo-la.caltech.edu/FRS/show_bug.cgi?id=12925">#12925</a>
+
+<br>
+<br>
+
+The next jump we see is around valid day 125 corresponding to 10-08-2019 through 12-08-2019. 
+
+These are contemperaeous with the following log entries. All three involved swapping out electronics boards possibly near the magnetometer.
+<br><a href="https://services2.ligo-la.caltech.edu/LLO/workpermits/view.php?permit_id=5596">Investigate 45MHZ RF AM glitches listed in alog 47645 and likely swap out the 45MHz EOM Driver (D0900760) in the PSL-R2 rack</a>
+<br><a href="https://services2.ligo-la.caltech.edu/LLO/workpermits/view.php?permit_id=5610">Swap ITMX PUM CD with on modified with new Noise Monitor board D1900052</a>
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=47891">l1susauxb123 power supply trip</a>
+
+<br>
+<br>
+
+Finally, we see a strong downtrend beginning around valid day 175. This corresponds roughly with the period 19-11-2019 through 16-12-2019. However, this is followed by a quick correction between 16-12-2019 and 19-12-2019 around valid day 200.
+
+This correction is contemporaneous with entries:
+
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50486">WP5917 - Hardwire Whitening chassis settings</a>
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50495">l1susb123 down at 8:20PM - Failed 18-bit DAC</a>
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50499">A spare was retrieved from X2SUSB123 and swapped out with the 4th DAC (1-7, PCIe Slot 7 D1400014)
+
+SN 101208-45 replaced by SN 110425-08 (S1812065)</a>
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50555">BIO configuration board (D1900166) removed from LSC POP_A (9,45) in ISC-R2-U22 cable ISC_52 reinstalled</a>.
+
+<br>
+<br>
+
+
+In CS, EY, and EX MAG_SUSRACK channels (in all three axes), we see a period of low absolute value dot product beginning 16-12-2019 (valid day 200) and ending 22-01-2020 (valid day 240).
+
+This initial drop may be caused by the following entries:
+<br>
+
+<a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50555">"BIO configuration board (D1900166) removed from LSC POP_A (9,45) in ISC-R2-U22 cable ISC_52 reinstalled"</a>
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50965">To note, LSC POP_A (9,45), ISC-R2-U22 was reverted back to the cable as there is a difference when the configuration board is used.</a>
+<br><a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50486">WP5917 - Hardwire Whitening chassis settings</a>
+<br>
+
+Much of the work on 18-12-2019 is localized to LSC POP_A (9,45), and there is an entry related to LSC POP_A (9,45) on 15-01-2020. Also important to note is that there was a <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=50557">special emphasis on reaching low noise</a> which seems to be reflected in the data. However, in each of the above cases, the period of low dot product correlation seems to end on 22-01-2020. The following entries are potential explanations:<br>
+
+<br> <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51162">Problems still persist with temperature control in PSL</a>
+<br>  <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51128">Investigating RM1 suspension LR channel VoltMon excess noise</a>
+<br>  <a href="https://alog.ligo-la.caltech.edu/aLOG/index.php?callRep=51126">Replace ITMY PUM Coil Driver with chassis modified with new NoiseMon-v2</a>

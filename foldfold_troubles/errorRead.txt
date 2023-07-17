@@ -1,0 +1,8 @@
+H1:SUS-ETMY_L3_MASTER_OUT_LL_DQ -- total faliure, even rerunning doesn't help
+
+
+L1:SUS-ETMY_L3_MASTER_OUT_LL_DQ -- fails in Jan, rerunning, zero error
+./run_foldfold2.sh /ldcg/matlab_r2020a L1:SUS-ETMY_L3_MASTER_OUT_LL_DQ L1 8 SUS-ETMY_L3_MASTER_OUT_LL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+
+H1:PEM-EX_MAG_EBAY_SUSRACK_X_DQ -- fails in Jan, rerunning, zero error

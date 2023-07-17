@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "foldfold_troubles"
+		}
+	],
+	"settings": {
+		"matlab.mlintpath": "X:\\Program Files\\MATLAB\\R2020a\\bin\\win64\\mlint.exe"
+	}
+}

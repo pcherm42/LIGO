@@ -1,0 +1,118 @@
+(igwn) [sherman.thompson@ldas-pcdev1 matlab]$ ./run_normvisualizer.sh /ldcg/matlab_r2020b L1 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:/ldcg/matlab_r2020b/runtime/glnxa64:/ldcg/matlab_r2020b/bin/glnxa64:/ldcg/matlab_r2020b/sys/os/glnxa64:/ldcg/matlab_r2020b/sys/opengl/lib/glnxa64
+
+ans =
+
+    'L1'
+
+
+ans =
+
+     8
+
+
+ans =
+
+    'PEM-EX_MAG_EBAY_SUSRACK_X_DQ'
+
+
+auxchannel =
+
+    'CAL-DELTAL_EXTERNAL_DQ'
+
+
+auxlocation =
+
+    'L1'
+
+
+currentdir =
+
+    '/home/sherman.thompson/FoldingAnalysis/O3'
+
+
+monthfile =
+
+    '/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv'
+
+
+channeltags =
+
+  1x15 cell array
+
+  Columns 1 through 12
+
+    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}
+
+  Columns 13 through 15
+
+    {1x2 cell}    {1x2 cell}    {1x2 cell}
+
+Unrecognized function or variable 'times'.
+
+Error in dataget (line 101)
+
+Error in normvisualizer (line 27)
+
+MATLAB:UndefinedFunction
+(igwn) [sherman.thompson@ldas-pcdev1 matlab]$ sh dotfilter_runallchannels.sh 1 L1
+
+-----------------------------------------------------------------------------------------------------------------------------------
+
+(igwn) [sherman.thompson@ldas-pcdev1 matlab]$ sh dotfilter_runallchannels.sh 1 L1
+------------------------------------------
+Setting up environment variables
+---
+LD_LIBRARY_PATH is .:/ldcg/matlab_r2020b/runtime/glnxa64:/ldcg/matlab_r2020b/bin/glnxa64:/ldcg/matlab_r2020b/sys/os/glnxa64:/ldcg/matlab_r2020b/sys/opengl/lib/glnxa64
+
+ans =
+
+    'L1'
+
+
+ans =
+
+    '8'
+
+
+ans =
+
+    'PEM-EY_MAG_EBAY_SUSRACK_Z_DQ'
+
+
+auxchannel =
+
+    'PEM-EY_MAG_EBAY_SUSRACK_Z_DQ'
+
+
+auxlocation =
+
+    'L1'
+
+
+currentdir =
+
+    '/home/sherman.thompson/FoldingAnalysis/O3'
+
+
+monthfile =
+
+    '/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv'
+
+
+channeltags =
+
+  1x14 cell array
+
+  Columns 1 through 12
+
+    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}    {1x2 cell}
+
+  Columns 13 through 14
+
+    {1x2 cell}    {1x2 cell}
+
+Getting file /home/sherman.thompson/FoldingAnalysis/O3/files/matfiles/PEM-EY_MAG_EBAY_SUSRACK_Z_DQ/L1/April-01-2019_folded_veto-5.000000_8sec.mat 

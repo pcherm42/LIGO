@@ -1,0 +1,21 @@
+JOB 1 foldfold.sub
+VARS 1 ifo="H1:PEM-EX_MAG_EBAY_SUSRACK_X_DQ" loc="H1" foldSize="8" channel="PEM-EX_MAG_EBAY_SUSRACK_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 2 foldfold.sub
+VARS 2 ifo="H1:SUS-ETMY_L3_MASTER_OUT_LL_DQ" loc="H1" foldSize="8" channel="SUS-ETMY_L3_MASTER_OUT_LL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_SUS-ETMY_L3_MASTER_OUT_LL_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 3 foldfold.sub
+VARS 3 ifo="L1:CAL-DELTAL_EXTERNAL_DQ" loc="L1" foldSize="8" channel="CAL-DELTAL_EXTERNAL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_CAL-DELTAL_EXTERNAL_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 4 foldfold.sub
+VARS 4 ifo="L1:PEM-CS_MAG_EBAY_SUSRACK_X_DQ" loc="L1" foldSize="8" channel="PEM-CS_MAG_EBAY_SUSRACK_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 5 foldfold.sub
+VARS 5 ifo="L1:SUS-ETMY_L3_MASTER_OUT_LL_DQ" loc="L1" foldSize="8" channel="SUS-ETMY_L3_MASTER_OUT_LL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3"
+
+./run_foldfold2.sh /ldcg/matlab_r2020a L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+./run_foldfold2.sh /ldcg/matlab_r2020a H1:PEM-EX_MAG_EBAY_SUSRACK_X_DQ H1 8 PEM-EX_MAG_EBAY_SUSRACK_X_DQ 8192 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+./run_foldfold2.sh /ldcg/matlab_r2020a H1:SUS-ETMY_L3_MASTER_OUT_LL_DQ H1 8 SUS-ETMY_L3_MASTER_OUT_LL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+./run_foldfold2.sh /ldcg/matlab_r2020a L1:PEM-CS_MAG_EBAY_SUSRACK_X_DQ L1 8 PEM-CS_MAG_EBAY_SUSRACK_X_DQ 8192 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+./run_foldfold2.sh /ldcg/matlab_r2020a L1:SUS-ETMY_L3_MASTER_OUT_LL_DQ L1 8 SUS-ETMY_L3_MASTER_OUT_LL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+

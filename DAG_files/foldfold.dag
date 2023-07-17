@@ -1,0 +1,64 @@
+JOB 1 foldfold.sub
+VARS 1 ifo="H1:PEM-EY_MAG_EBAY_SUSRACK_Z_DQ" loc="H1" foldSize="8" channel="PEM-EY_MAG_EBAY_SUSRACK_Z_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 2 foldfold.sub
+VARS 2 ifo="L1:PEM-EY_MAG_EBAY_SUSRACK_Z_DQ" loc="L1" foldSize="8" channel="PEM-EY_MAG_EBAY_SUSRACK_Z_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 3 foldfold.sub
+VARS 3 ifo="H1:PEM-EY_MAG_EBAY_SUSRACK_Y_DQ" loc="H1" foldSize="8" channel="PEM-EY_MAG_EBAY_SUSRACK_Y_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 4 foldfold.sub
+VARS 4 ifo="L1:PEM-EY_MAG_EBAY_SUSRACK_Y_DQ" loc="L1" foldSize="8" channel="PEM-EY_MAG_EBAY_SUSRACK_Y_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_MAG_EBAY_SUSRACK_Y_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 5 foldfold.sub
+VARS 5 ifo="H1:CAL-DELTAL_EXTERNAL_DQ" loc="H1" foldSize="8" channel="CAL-DELTAL_EXTERNAL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_CAL-DELTAL_EXTERNAL_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 6 foldfold.sub
+VARS 6 ifo="L1:CAL-DELTAL_EXTERNAL_DQ" loc="L1" foldSize="8" channel="CAL-DELTAL_EXTERNAL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_CAL-DELTAL_EXTERNAL_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 7 foldfold.sub
+VARS 7 ifo="H1:PEM-CS_MAG_LVEA_VERTEX_Y_DQ" loc="H1" foldSize="8" channel="PEM-CS_MAG_LVEA_VERTEX_Y_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 8 foldfold.sub
+VARS 8 ifo="L1:PEM-CS_MAG_LVEA_VERTEX_Y_DQ" loc="L1" foldSize="8" channel="PEM-CS_MAG_LVEA_VERTEX_Y_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_LVEA_VERTEX_Y_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 9 foldfold.sub
+VARS 9 ifo="H1:PEM-CS_MAG_EBAY_SUSRACK_Z_DQ" loc="H1" foldSize="8" channel="PEM-CS_MAG_EBAY_SUSRACK_Z_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 10 foldfold.sub
+VARS 10 ifo="L1:PEM-CS_MAG_EBAY_SUSRACK_Z_DQ" loc="L1" foldSize="8" channel="PEM-CS_MAG_EBAY_SUSRACK_Z_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_EBAY_SUSRACK_Z_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 11 foldfold.sub
+VARS 11 ifo="H1:PEM-CS_MAG_LVEA_VERTEX_X_DQ" loc="H1" foldSize="8" channel="PEM-CS_MAG_LVEA_VERTEX_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_LVEA_VERTEX_X_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 12 foldfold.sub
+VARS 12 ifo="L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ" loc="L1" foldSize="8" channel="PEM-CS_MAG_LVEA_VERTEX_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_LVEA_VERTEX_X_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 13 foldfold.sub
+VARS 13 ifo="H1:SUS-ETMY_L3_MASTER_OUT_LL_DQ" loc="H1" foldSize="8" channel="SUS-ETMY_L3_MASTER_OUT_LL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_SUS-ETMY_L3_MASTER_OUT_LL_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 14 foldfold.sub
+VARS 14 ifo="L1:SUS-ETMY_L3_MASTER_OUT_LL_DQ" loc="L1" foldSize="8" channel="SUS-ETMY_L3_MASTER_OUT_LL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_SUS-ETMY_L3_MASTER_OUT_LL_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 15 foldfold.sub
+VARS 15 ifo="H1:PEM-EX_MAG_EBAY_SUSRACK_Y_DQ" loc="H1" foldSize="8" channel="PEM-EX_MAG_EBAY_SUSRACK_Y_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 16 foldfold.sub
+VARS 16 ifo="L1:PEM-EX_MAG_EBAY_SUSRACK_Y_DQ" loc="L1" foldSize="8" channel="PEM-EX_MAG_EBAY_SUSRACK_Y_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_MAG_EBAY_SUSRACK_Y_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 17 foldfold.sub
+VARS 17 ifo="H1:PEM-EX_MAG_EBAY_SUSRACK_X_DQ" loc="H1" foldSize="8" channel="PEM-EX_MAG_EBAY_SUSRACK_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 18 foldfold.sub
+VARS 18 ifo="L1:PEM-EX_MAG_EBAY_SUSRACK_X_DQ" loc="L1" foldSize="8" channel="PEM-EX_MAG_EBAY_SUSRACK_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_MAG_EBAY_SUSRACK_X_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 19 foldfold.sub
+VARS 19 ifo="H1:PEM-CS_MAG_EBAY_SUSRACK_X_DQ" loc="H1" foldSize="8" channel="PEM-CS_MAG_EBAY_SUSRACK_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 20 foldfold.sub
+VARS 20 ifo="L1:PEM-CS_MAG_EBAY_SUSRACK_X_DQ" loc="L1" foldSize="8" channel="PEM-CS_MAG_EBAY_SUSRACK_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_EBAY_SUSRACK_X_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 21 foldfold.sub
+VARS 21 ifo="H1:PEM-CS_MAG_LVEA_VERTEX_Z_DQ" loc="H1" foldSize="8" channel="PEM-CS_MAG_LVEA_VERTEX_Z_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 22 foldfold.sub
+VARS 22 ifo="L1:PEM-CS_MAG_LVEA_VERTEX_Z_DQ" loc="L1" foldSize="8" channel="PEM-CS_MAG_LVEA_VERTEX_Z_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_LVEA_VERTEX_Z_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 23 foldfold.sub
+VARS 23 ifo="H1:PEM-EX_MAG_EBAY_SUSRACK_Z_DQ" loc="H1" foldSize="8" channel="PEM-EX_MAG_EBAY_SUSRACK_Z_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 24 foldfold.sub
+VARS 24 ifo="L1:PEM-EX_MAG_EBAY_SUSRACK_Z_DQ" loc="L1" foldSize="8" channel="PEM-EX_MAG_EBAY_SUSRACK_Z_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 25 foldfold.sub
+VARS 25 ifo="H1:PEM-CS_MAG_EBAY_SUSRACK_Y_DQ" loc="H1" foldSize="8" channel="PEM-CS_MAG_EBAY_SUSRACK_Y_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 26 foldfold.sub
+VARS 26 ifo="L1:PEM-CS_MAG_EBAY_SUSRACK_Y_DQ" loc="L1" foldSize="8" channel="PEM-CS_MAG_EBAY_SUSRACK_Y_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-CS_MAG_EBAY_SUSRACK_Y_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 27 foldfold.sub
+VARS 27 ifo="H1:PEM-EY_MAG_EBAY_SUSRACK_X_DQ" loc="H1" foldSize="8" channel="PEM-EY_MAG_EBAY_SUSRACK_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 28 foldfold.sub
+VARS 28 ifo="L1:PEM-EY_MAG_EBAY_SUSRACK_X_DQ" loc="L1" foldSize="8" channel="PEM-EY_MAG_EBAY_SUSRACK_X_DQ" FS="8192" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_MAG_EBAY_SUSRACK_X_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 29 foldfold.sub
+VARS 29 ifo="H1:PEM-EX_ADC_0_12_OUT_DQ" loc="H1" foldSize="8" channel="PEM-EX_ADC_0_12_OUT_DQ" FS="2048" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_ADC_0_12_OUT_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 30 foldfold.sub
+VARS 30 ifo="L1:PEM-EX_ADC_0_12_OUT_DQ" loc="L1" foldSize="8" channel="PEM-EX_ADC_0_12_OUT_DQ" FS="2048" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EX_ADC_0_12_OUT_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 31 foldfold.sub
+VARS 31 ifo="H1:PEM-EY_ADC_0_12_OUT_DQ" loc="H1" foldSize="8" channel="PEM-EY_ADC_0_12_OUT_DQ" FS="2048" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_ADC_0_12_OUT_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 
+JOB 32 foldfold.sub
+VARS 32 ifo="L1:PEM-EY_ADC_0_12_OUT_DQ" loc="L1" foldSize="8" channel="PEM-EY_ADC_0_12_OUT_DQ" FS="2048" dir="/home/sherman.thompson/FoldingAnalysis/O3" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_PEM-EY_ADC_0_12_OUT_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/O3" 

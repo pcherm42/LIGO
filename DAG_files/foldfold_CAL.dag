@@ -1,0 +1,4 @@
+JOB 1 foldfold.sub
+VARS 1 ifo="H1:CAL-DELTAL_EXTERNAL_DQ" loc="H1" foldSize="8" channel="CAL-DELTAL_EXTERNAL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/LatestVersion" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_CAL-DELTAL_EXTERNAL_DQ_H1" homeDir="/home/sherman.thompson/FoldingAnalysis/LatestVersion" 
+JOB 2 foldfold.sub
+VARS 2 ifo="L1:CAL-DELTAL_EXTERNAL_DQ" loc="L1" foldSize="8" channel="CAL-DELTAL_EXTERNAL_DQ" FS="16384" dir="/home/sherman.thompson/FoldingAnalysis/LatestVersion" months_file="/home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv" jobid="foldfold_CAL-DELTAL_EXTERNAL_DQ_L1" homeDir="/home/sherman.thompson/FoldingAnalysis/LatestVersion" 

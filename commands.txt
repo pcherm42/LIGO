@@ -1,0 +1,207 @@
+
+
+---------------------------------------------------COMPILING .m-----------------------------------------
+
+COMPILE:
+mcc -U -C -m -R -nojvm -R -nodisplay run.m
+
+mcc -U -C -m -R -singleCompThread -R -nodisplay -R -nojvm -nocache foo.m -a ./testdir/*
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+-----------------THIS IS THE COMMAND COMPILES RUN.m--------------------------------------------
+
+
+-------Old one:
+mcc -U -C -mv -R -singleCompThread -R -nodisplay -R -nosplash -R -nojvm run.m -a ~/FoldingAnalysis/matlab/AnalyzeData3.m -a ~/FoldingAnalysis/matlab/foldingAnalysis3.m -a ~/FoldingAnalysis/matlab/frgetvect.mexa64 -a ~/FoldingAnalysis/matlab/readFrames.m -a ~/FoldingAnalysis/matlab/readget.m -a ~/FoldingAnalysis/matlab/readsciencedata.m
+
+
+-----------This one works-7/6/2020:
+mcc -mv run.m -a ~/FoldingAnalysis/matlab/AnalyzeData3.m -a ~/FoldingAnalysis/matlab/foldingAnalysis3.m -a ~/FoldingAnalysis/matlab/frgetvect.mexa64 -a ~/FoldingAnalysis/matlab/readFrames.m -a ~/FoldingAnalysis/matlab/readget.m -a ~/FoldingAnalysis/matlab/readsciencedata.m
+
+--try 8-3-2020:
+mcc -mv -R -nojvm -R -singleCompThread run.m -a ~/FoldingAnalysis/matlab/AnalyzeData3.m -a ~/FoldingAnalysis/matlab/foldingAnalysis3.m -a ~/FoldingAnalysis/matlab/frgetvect.mexa64 -a ~/FoldingAnalysis/matlab/readFrames.m -a ~/FoldingAnalysis/matlab/readget.m -a ~/FoldingAnalysis/matlab/readsciencedata.m
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+--------------------------HOW TO RUN A SCRIPT--------------------------------------------
+
+./run_foo.sh /ldcg/matlab_r2020a
+
+-------------------------------------------
+
+
+
+
+---------------------RUN RUN.m COMPILED FOR A DAY, MAR 01--------------
+
+./run_run.sh /ldcg/matlab_r2020b 1267056018 1267142418 8 16384 0 H1:CAL-DELTAL_EXTERNAL_DQ /home/sherman.thompson/FoldingAnalysis/segments/2020MarchH1segsAnalysis.txt /home/sherman.thompson/FoldingAnalysis/O3_Latest/files/matfiles/CAL-DELTAL_EXTERNAL_DQ 8
+
+----------------------------------------------------------------------------------
+
+
+
+------------------------------GPS TIMES-----------------------
+
+March: 1267056018 1269734418
+
+-------------------------------------------------------------------------------------------
+
+
+
+
+------------ RUN FOR MARCH 01 : 1267056018 through 1267142418 --------------------
+
+run 1267056018 1267142418 8 16384 0 H1:CAL-DELTAL_EXTERNAL_DQ /home/sherman.thompson/FoldingAnalysis/segments/2020MarchH1segsAnalysis.txt /home/sherman.thompson/FoldingAnalysis/O3_Latest/files/matfiles/CAL-DELTAL_EXTERNAL_DQ 8
+
+-------------------------------------------------------------------------------------------------
+
+
+
+
+---------------------------THIS COMMAND COMPILES folfold2.m-------------------------
+
+mcc -mv foldfold2.m -a ~/FoldingAnalysis/matlab/makeplots.m
+
+---------------------------------------------------------------------------------------------------
+
+
+
+-------------------------------THIS COMMAND RUNS foldfold2.m----------------------------------
+
+./run_foldfold2.sh /ldcg/matlab_r2020b L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/LatestVersion /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+_________________________
+
+for yearcompare test
+
+yearcompare L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+matcompare("/home/sherman.thompson/FoldingAnalysis/O3/files/matfiles/CAL-DELTAL_EXTERNAL_DQ/L1/May-02-2019_folded_veto-5.000000_8sec.mat", "avgData", 16384, "/home/sherman.thompson/FoldingAnalysis/O3/files/matfiles/CAL-DELTAL_EXTERNAL_DQ/L1/May-02-2019_folded_veto-5.000000_8sec.mat", "avgData", 16384)
+
+yearcompare L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/O3April.csv
+
+compile COMMAND
+
+mcc -mv yearcompare.m -a ~/FoldingAnalysis/matlab/matcompare.m
+
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/O3April.csv
+
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-EY_MAG_EBAY_SUSRACK_Z_DQ L1 8 PEM-EY_MAG_EBAY_SUSRACK_Z_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-EY_MAG_EBAY_SUSRACK_Y_DQ L1 8 PEM-EY_MAG_EBAY_SUSRACK_Y_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_LVEA_VERTEX_Y_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_Y_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_EBAY_SUSRACK_Z_DQ L1 8 PEM-CS_MAG_EBAY_SUSRACK_Z_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:SUS-ETMY_L3_MASTER_OUT_LL_DQ L1 8 SUS-ETMY_L3_MASTER_OUT_LL_DQ 16384 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-EX_MAG_EBAY_SUSRACK_Y_DQ L1 8 PEM-EX_MAG_EBAY_SUSRACK_Y_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-EX_MAG_EBAY_SUSRACK_X_DQ L1 8 PEM-EX_MAG_EBAY_SUSRACK_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_EBAY_SUSRACK_X_DQ L1 8 PEM-CS_MAG_EBAY_SUSRACK_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_LVEA_VERTEX_Z_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_Z_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-EX_MAG_EBAY_SUSRACK_Z_DQ L1 8 PEM-EX_MAG_EBAY_SUSRACK_Z_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_EBAY_SUSRACK_Y_DQ L1 8 PEM-CS_MAG_EBAY_SUSRACK_Y_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-EY_MAG_EBAY_SUSRACK_X_DQ L1 8 PEM-EY_MAG_EBAY_SUSRACK_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-EX_ADC_0_12_OUT_DQ L1 8 PEM-EX_ADC_0_12_OUT_DQ 2048 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-EY_ADC_0_12_OUT_DQ L1 8 PEM-EY_ADC_0_12_OUT_DQ 2048 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EY_MAG_EBAY_SUSRACK_Z_DQ H1 8 PEM-EY_MAG_EBAY_SUSRACK_Z_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EY_MAG_EBAY_SUSRACK_Y_DQ H1 8 PEM-EY_MAG_EBAY_SUSRACK_Y_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_LVEA_VERTEX_Y_DQ H1 8 PEM-CS_MAG_LVEA_VERTEX_Y_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+
+
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_EBAY_SUSRACK_Z_DQ H1 8 PEM-CS_MAG_EBAY_SUSRACK_Z_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_LVEA_VERTEX_X_DQ H1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:SUS-ETMY_L3_MASTER_OUT_LL_DQ H1 8 SUS-ETMY_L3_MASTER_OUT_LL_DQ 16384 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EX_MAG_EBAY_SUSRACK_Y_DQ H1 8 PEM-EX_MAG_EBAY_SUSRACK_Y_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EX_MAG_EBAY_SUSRACK_X_DQ H1 8 PEM-EX_MAG_EBAY_SUSRACK_X_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_EBAY_SUSRACK_X_DQ H1 8 PEM-CS_MAG_EBAY_SUSRACK_X_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_LVEA_VERTEX_Z_DQ H1 8 PEM-CS_MAG_LVEA_VERTEX_Z_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EX_MAG_EBAY_SUSRACK_Z_DQ H1 8 PEM-EX_MAG_EBAY_SUSRACK_Z_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_EBAY_SUSRACK_Y_DQ H1 8 PEM-CS_MAG_EBAY_SUSRACK_Y_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EY_MAG_EBAY_SUSRACK_X_DQ H1 8 PEM-EY_MAG_EBAY_SUSRACK_X_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EX_ADC_0_12_OUT_DQ H1 8 PEM-EX_ADC_0_12_OUT_DQ 2048 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EY_ADC_0_12_OUT_DQ H1 8 PEM-EY_ADC_0_12_OUT_DQ 2048 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+scp:
+
+use cmd 
+
+mcc -mv yeardotshare.m -a ~/FoldingAnalysis/matlab/matcompare.m -a ~/FoldingAnalysis/matlab/dotshare.m
+
+./run_yeardotshare.sh /ldcg/matlab_r2020b L1:PEM-EX_MAG_EBAY_SUSRACK_Z_DQ L1 8 PEM-EX_MAG_EBAY_SUSRACK_Z_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+./run_yeardotshare.sh /ldcg/matlab_r2020b H1:PEM-EX_MAG_EBAY_SUSRACK_Z_DQ H1 8 PEM-EX_MAG_EBAY_SUSRACK_Z_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+mcc -mv yeardotshare_zoomin.m
+
+./run_yeardotshare_zoomin.sh /ldcg/matlab_r2020b "YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_X_DQ.mat" 127 177 6.4 7.99 8192
+./run_yeardotshare_zoomin.sh /ldcg/matlab_r2020b "YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_X_DQ.mat" 150 250 6 7.99 8192
+./run_yeardotshare_zoomin.sh /ldcg/matlab_r2020b "YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_X_DQ.mat" 1 250 .1 7.99 8192
+
+
+
+./run_yeardotshare_zoomin.sh /ldcg/matlab_r2020b "YearDotshare_L1_CAL-DELTAL_EXTERNAL_DQ_PEM-EX_MAG_EBAY_SUSRACK_Z_DQ.mat" 1 250 .1 7.99 8192
+
+
+./run_yeardotshare_zoomin.sh /ldcg/matlab_r2020b "YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-CS_MAG_LVEA_VERTEX_Z_DQ.mat" 1 250 .1 7.99 8192
+
+
+./run_yeardotshare_zoomin.sh /ldcg/matlab_r2020b "YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ.mat" 1 250 .1 7.99 8192
+
+mcc -mv dotfilter_driver.m -a ~/FoldingAnalysis/matlab/channeltagconverter.m -a ~/FoldingAnalysis/matlab/dataget.m -a ~/FoldingAnalysis/matlab/dotfilter.m -a ~/FoldingAnalysis/matlab/statdot.m -a ~/FoldingAnalysis/matlab/eucdot.m -a ~/FoldingAnalysis/matlab/projuv.m
+
+./run_dotfilter_driver.sh /ldcg/matlab_r2020b 1 "L1" false L1 8 PEM-EX_MAG_EBAY_SUSRACK_Z_DQ 8192 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
+
+sh dotfilter_runallchannels.sh 2 H1
+sh dotfilter_runallchannels.sh 1 L1
+
+
+
+mcc -mv normvisualizer.m -a ~/FoldingAnalysis/matlab/channeltagconverter.m -a ~/FoldingAnalysis/matlab/dataget.m 
+
+./run_normvisualizer.sh /ldcg/matlab_r2020b L1 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv false
