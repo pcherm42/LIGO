@@ -1,4 +1,4 @@
-function normvisualizer(ifo, currentdir, monthfile, dotweighquerey)
+function normvisualizer(ifo, currentdir, monthfile, dotweighquerey) %This may need to run on more than 1TB of Memory machines....
 
     auxfoldS = '8';
     auxlocation = ifo;
