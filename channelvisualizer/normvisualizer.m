@@ -1,4 +1,4 @@
-function normvisualizer(ifo, currentdir, monthfile, dotweighquerey) %This may need to run on more than 1TB of Memory machines....
+function normvisualizer(ifo, currentdir, monthfile, dotweighquerey) %This may need to run on more than 1TB of Memory machines.... The common killed error is a result of running out of memory for CAL channel with the large samplerate.
 
     auxfoldS = '8';
     auxlocation = ifo;
