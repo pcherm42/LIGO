@@ -130,3 +130,8 @@ For the dotfilter algorithm:
 - reorder channels
 - continue observations
 - dotproduct in frequency space?
+
+_______________________________________
+
+
+- We should really begin looking at how to get O4 data... Hopefully we can track how to do this step by step from the beginnings of the pipeline all the way to the end!!
