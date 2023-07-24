@@ -1,5 +1,6 @@
 function yearcompare(auxifo, auxlocation, auxfoldS, auxchannel, auxNFFT, primifo, primlocation, primfoldS, primchannel, primNFFT, currentDir, months_file)%, glitch_file)
     
+    bandpassquerey = true;
     auxfoldS = str2double(auxfoldS);
     primfoldS = str2double(primfoldS);
     months_file = sprintf('%s', months_file);
@@ -77,7 +78,7 @@ function yearcompare(auxifo, auxlocation, auxfoldS, auxchannel, auxNFFT, primifo
 
             if length(primlist) > 0 && length(auxlist) > 0
 
-                dotproduct = matcompare(char(primfilname), 'avgData', primFs, char(auxfilname), 'avgData', auxFs); %avgData vs suumsumavg name error occurs here
+                dotproduct = matcompare(char(primfilname), 'avgData', primFs, char(auxfilname), 'avgData', auxFs, bandpassquerey); %avgData vs suumsumavg name error occurs here
 
                 data(counter) = dotproduct;
 

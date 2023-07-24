@@ -1,6 +1,7 @@
 function out = dataget(primlocation, primfoldS, primchannel, auxchannel, auxlocation, currentDir, months_file, channeltags)
 
     auxfoldS = primfoldS;
+    bandpassquerey = true;
 
 
     
@@ -89,6 +90,24 @@ function out = dataget(primlocation, primfoldS, primchannel, auxchannel, auxloca
                 dates(counter) = datenum(DateString);
                 file1 = load(char(primfilname));
                 day_data = file1.('avgData');
+                % bandpass
+                if bandpassquerey
+                    NFFT = length(day_data);
+                    Fs = NFFT/8;
+                    Y = fft(var1, NFFT);
+                    L = length(Y);
+
+                    fhigh = 50; flow = 10; 
+                    nbinmax = round(fhigh*length(Y)/Fs + 1); 
+                    nbinmin = round(flow*length(Y)/Fs + 1); 
+                    bandY = zeros(size(Y)); 
+                    bandY(nbinmin:nbinmax) = Y(nbinmin:nbinmax); 
+                    bandY(end - nbinmax + 2: end - nbinmin + 2) = Y(end - nbinmax + 2 : end - nbinmin + 2); 
+                    bandY(1) = 0; 
+                    bandY(L/2 + 1) = 0.; 
+                    var1 = ifft(bandY);
+                end
+
                 Matrix = [Matrix, day_data];
                 times = file1.('fract');
 

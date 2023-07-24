@@ -134,3 +134,6 @@ _______________________________________
 
 - We should really begin looking at how to get O4 data... Hopefully we can track how to do this step by step from the beginnings of the pipeline all the way to the end!!
 
+- Re sort out time
+- Make sure to not access >3 day old aux raw data
+- copy over the .mat raw files and build O4 directory from there.

@@ -1,4 +1,4 @@
-function out = matcompare(path1, varname1, samplerate1, path2, varname2, samplerate2)
+function out = matcompare(path1, varname1, samplerate1, path2, varname2, samplerate2, bandpassquerey)
 
 
     file1 = load(path1);
@@ -24,6 +24,42 @@ function out = matcompare(path1, varname1, samplerate1, path2, varname2, sampler
         half = samplerate1/2;
         samplerate1 = half;
     end
+
+    % bandpass
+    if bandpassquerey
+        NFFT = length(var1);
+        Fs = samplerate1;
+        Y = fft(var1, NFFT);
+        L = length(Y);
+
+        fhigh = 50; flow = 10; 
+        nbinmax = round(fhigh*length(Y)/Fs + 1); 
+        nbinmin = round(flow*length(Y)/Fs + 1); 
+        bandY = zeros(size(Y)); 
+        bandY(nbinmin:nbinmax) = Y(nbinmin:nbinmax); 
+        bandY(end - nbinmax + 2: end - nbinmin + 2) = Y(end - nbinmax + 2 : end - nbinmin + 2); 
+        bandY(1) = 0; 
+        bandY(L/2 + 1) = 0.; 
+        var1 = ifft(bandY);
+    end
+
+    if bandpassquerey
+        NFFT = length(var2);
+        Fs = samplerate2;
+        Y = fft(var2, NFFT);
+        L = length(Y);
+
+        fhigh = 50; flow = 10; 
+        nbinmax = round(fhigh*length(Y)/Fs + 1); 
+        nbinmin = round(flow*length(Y)/Fs + 1); 
+        bandY = zeros(size(Y)); 
+        bandY(nbinmin:nbinmax) = Y(nbinmin:nbinmax); 
+        bandY(end - nbinmax + 2: end - nbinmin + 2) = Y(end - nbinmax + 2 : end - nbinmin + 2); 
+        bandY(1) = 0; 
+        bandY(L/2 + 1) = 0.; 
+        var2 = ifft(bandY);
+    end
+
 
 
     mean_1 = mean(var1);

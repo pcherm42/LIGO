@@ -10,7 +10,7 @@ function [status, ycleaned] = makeplots(fract,y,Fs,label, fnamepeaks,fnamepdf,fn
     if foldSize == 1
         fractt = (-fractSize / 2 : sfol - fractSize / 2 - 1)/16384;
     end
-    fractt = foldSize * fract - .5; 
+    fractt = foldSize * fract - .5;
     
     fprintf('fractt and y: %d, %d\n', length(fractt), length(y)); 
     % for 16 parts only sfol=fol*16384 /16;

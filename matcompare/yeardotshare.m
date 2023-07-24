@@ -1,6 +1,7 @@
 function yeardotshare(auxifo, auxlocation, auxfoldS, auxchannel, auxNFFT, primifo, primlocation, primfoldS, primchannel, primNFFT, currentDir, months_file)%, glitch_file)
     
     dotweighquerey = true;
+    bandpassquerey = true;
     
     auxfoldS = str2double(auxfoldS);
     primfoldS = str2double(primfoldS);
@@ -81,7 +82,7 @@ function yeardotshare(auxifo, auxlocation, auxfoldS, auxchannel, auxNFFT, primif
 
             if length(primlist) > 0 && length(auxlist) > 0
 
-                dotproduct = matcompare(char(primfilname), 'avgData', primFs, char(auxfilname), 'avgData', auxFs); %avgData vs suumsumavg name error occurs here
+                dotproduct = matcompare(char(primfilname), 'avgData', primFs, char(auxfilname), 'avgData', auxFs, bandpassquerey); %avgData vs suumsumavg name error occurs here
 
                 data(counter) = dotproduct;
 
