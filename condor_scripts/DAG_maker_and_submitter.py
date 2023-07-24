@@ -21,7 +21,8 @@ def makeDags(month, year):
           
           
     process = Popen(['pwd'], stdout=PIPE)
-    stdout = process.communicate()[0].strip('\n')
+    stdout = process.communicate()[0]
+    stdout = str(stdout, 'utf-8').strip('\n')
     condorDir = stdout
     currentDir = '/'.join(condorDir.split('/')[0:-1])
     homeDir = '/'.join(condorDir.split('/')[0:-2])
@@ -51,12 +52,16 @@ def makeDags(month, year):
             for day in range(1, lastDay):
 
                 process = Popen(['lalapps_tconvert', month + ' ' + str(day) + ' ' + str(year)], stdout=PIPE)
-                stdout = process.communicate()[0].strip('\n')
+                stdout = process.communicate()[0]
+                stdout = str(stdout, 'utf-8').strip('\n')
+
 
                 startTime = int(stdout)
 
                 process = Popen(['lalapps_tconvert', month + ' ' + str(day + 1) + ' ' + str(year)], stdout=PIPE)
-                stdout = process.communicate()[0].strip('\n')
+                stdout = process.communicate()[0]
+                stdout = str(stdout, 'utf-8').strip('\n')
+
 
                 endTime = int(stdout)
 
@@ -67,12 +72,15 @@ def makeDags(month, year):
                     '" numPartialFolds="8" jobid="' + channel + '_' + location + '_' + month + '_' + str(day) + '" homeDir="' + currentDir + '" \n')
 
             process = Popen(['lalapps_tconvert', month + ' ' + str(lastDay) + ' ' + str(year)], stdout=PIPE)
-            stdout = process.communicate()[0].strip('\n')
+            stdout = process.communicate()[0]
+            stdout = str(stdout, 'utf-8').strip('\n')
+
 
             startTime = int(stdout)
 
             process = Popen(['lalapps_tconvert', nextMonth + ' 1 ' + str(nextYear)], stdout=PIPE)
-            stdout = process.communicate()[0].strip('\n')
+            stdout = process.communicate()[0]
+            stdout = str(stdout, 'utf-8').strip('\n')
 
             endTime =  int(stdout)
 
