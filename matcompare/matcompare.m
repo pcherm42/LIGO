@@ -26,7 +26,7 @@ function out = matcompare(path1, varname1, samplerate1, path2, varname2, sampler
     end
 
     % bandpass
-    if bandpassquerey
+    if bandpassquerey == true
         NFFT = length(var1);
         Fs = samplerate1;
         Y = fft(var1, NFFT);
@@ -43,7 +43,7 @@ function out = matcompare(path1, varname1, samplerate1, path2, varname2, sampler
         var1 = ifft(bandY);
     end
 
-    if bandpassquerey
+    if bandpassquerey == true
         NFFT = length(var2);
         Fs = samplerate2;
         Y = fft(var2, NFFT);

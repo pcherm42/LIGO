@@ -91,10 +91,10 @@ function out = dataget(primlocation, primfoldS, primchannel, auxchannel, auxloca
                 file1 = load(char(primfilname));
                 day_data = file1.('avgData');
                 % bandpass
-                if bandpassquerey
+                if bandpassquerey == true
                     NFFT = length(day_data);
                     Fs = NFFT/8;
-                    Y = fft(var1, NFFT);
+                    Y = fft(day_data, NFFT);
                     L = length(Y);
 
                     fhigh = 50; flow = 10; 
@@ -105,7 +105,7 @@ function out = dataget(primlocation, primfoldS, primchannel, auxchannel, auxloca
                     bandY(end - nbinmax + 2: end - nbinmin + 2) = Y(end - nbinmax + 2 : end - nbinmin + 2); 
                     bandY(1) = 0; 
                     bandY(L/2 + 1) = 0.; 
-                    var1 = ifft(bandY);
+                    day_data = ifft(bandY);
                 end
 
                 Matrix = [Matrix, day_data];

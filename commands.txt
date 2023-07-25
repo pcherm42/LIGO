@@ -105,7 +105,12 @@ yearcompare L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192
 
 compile COMMAND
 
+
+#############################
+
 mcc -mv yearcompare.m -a ~/FoldingAnalysis/matlab/matcompare.m
+
+################################
 
 ./run_yearcompare.sh /ldcg/matlab_r2020b L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/O3April.csv
 
@@ -169,7 +174,11 @@ scp:
 
 use cmd 
 
+######################################
+
 mcc -mv yeardotshare.m -a ~/FoldingAnalysis/matlab/matcompare.m -a ~/FoldingAnalysis/matlab/dotshare.m
+
+##################################
 
 ./run_yeardotshare.sh /ldcg/matlab_r2020b L1:PEM-EX_MAG_EBAY_SUSRACK_Z_DQ L1 8 PEM-EX_MAG_EBAY_SUSRACK_Z_DQ 8192 L1:CAL-DELTAL_EXTERNAL_DQ L1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
 ./run_yeardotshare.sh /ldcg/matlab_r2020b H1:PEM-EX_MAG_EBAY_SUSRACK_Z_DQ H1 8 PEM-EX_MAG_EBAY_SUSRACK_Z_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
@@ -190,7 +199,9 @@ mcc -mv yeardotshare_zoomin.m
 
 ./run_yeardotshare_zoomin.sh /ldcg/matlab_r2020b "YearDotshare_H1_CAL-DELTAL_EXTERNAL_DQ_PEM-EY_MAG_EBAY_SUSRACK_Z_DQ.mat" 1 250 .1 7.99 8192
 
+####################
 mcc -mv dotfilter_driver.m -a ~/FoldingAnalysis/matlab/channeltagconverter.m -a ~/FoldingAnalysis/matlab/dataget.m -a ~/FoldingAnalysis/matlab/dotfilter.m -a ~/FoldingAnalysis/matlab/statdot.m -a ~/FoldingAnalysis/matlab/eucdot.m -a ~/FoldingAnalysis/matlab/projuv.m
+#####################
 
 ./run_dotfilter_driver.sh /ldcg/matlab_r2020b 1 "L1" false L1 8 PEM-EX_MAG_EBAY_SUSRACK_Z_DQ 8192 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
 
@@ -198,8 +209,11 @@ sh dotfilter_runallchannels.sh 2 H1
 sh dotfilter_runallchannels.sh 1 L1
 
 
-
+################
 mcc -mv normvisualizer.m -a ~/FoldingAnalysis/matlab/channeltagconverter.m -a ~/FoldingAnalysis/matlab/dataget.m 
+################
+
+
 
 ./run_normvisualizer.sh /ldcg/matlab_r2020b L1 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv false
 ./run_normvisualizer.sh /ldcg/matlab_r2020b H1 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv false

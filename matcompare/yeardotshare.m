@@ -1,6 +1,6 @@
 function yeardotshare(auxifo, auxlocation, auxfoldS, auxchannel, auxNFFT, primifo, primlocation, primfoldS, primchannel, primNFFT, currentDir, months_file)%, glitch_file)
     
-    dotweighquerey = true;
+    dotweighquerey = false;
     bandpassquerey = true;
     
     auxfoldS = str2double(auxfoldS);
@@ -89,7 +89,7 @@ function yeardotshare(auxifo, auxlocation, auxfoldS, auxchannel, auxNFFT, primif
                 DateString = sprintf('%s-%s-%s', dayofmonth, month_name, year_name)
                 dates(counter) = datenum(DateString);
 
-                cellarray = dotshare(char(primfilname), 'avgData', primFs, char(auxfilname), 'avgData', auxFs);
+                cellarray = dotshare(char(primfilname), 'avgData', primFs, char(auxfilname), 'avgData', auxFs, bandpassquerey);
                 day_dotshare = cellarray{1};
                 
 
@@ -134,7 +134,7 @@ function yeardotshare(auxifo, auxlocation, auxfoldS, auxchannel, auxNFFT, primif
     TrimmedData = data(1:counter);
     TrimmedDates = dates(1:counter);
     TrimmedDates = string(datetime(TrimmedDates,'ConvertFrom', 'datenum'));
-    times = 8*cellarray{2} - .5;
+    times = 8*cellarray{2};
     %Datestrings = datetime(TrimmedDates,'ConvertFrom', 'datenum');
     reso = size(Dotshare_matrix,2);
     xs = linspace(0,8,reso);
