@@ -152,9 +152,6 @@ L1:PEM-CS_MAG_LVEA_VERTEX_X_DQ L1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192
 ./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EY_MAG_EBAY_SUSRACK_Z_DQ H1 8 PEM-EY_MAG_EBAY_SUSRACK_Z_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
 ./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-EY_MAG_EBAY_SUSRACK_Y_DQ H1 8 PEM-EY_MAG_EBAY_SUSRACK_Y_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
 ./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_LVEA_VERTEX_Y_DQ H1 8 PEM-CS_MAG_LVEA_VERTEX_Y_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
-
-
-
 ./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_EBAY_SUSRACK_Z_DQ H1 8 PEM-CS_MAG_EBAY_SUSRACK_Z_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
 ./run_yearcompare.sh /ldcg/matlab_r2020b H1:PEM-CS_MAG_LVEA_VERTEX_X_DQ H1 8 PEM-CS_MAG_LVEA_VERTEX_X_DQ 8192 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
 ./run_yearcompare.sh /ldcg/matlab_r2020b H1:SUS-ETMY_L3_MASTER_OUT_LL_DQ H1 8 SUS-ETMY_L3_MASTER_OUT_LL_DQ 16384 H1:CAL-DELTAL_EXTERNAL_DQ H1 8 CAL-DELTAL_EXTERNAL_DQ 16384 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv
@@ -205,3 +202,4 @@ sh dotfilter_runallchannels.sh 1 L1
 mcc -mv normvisualizer.m -a ~/FoldingAnalysis/matlab/channeltagconverter.m -a ~/FoldingAnalysis/matlab/dataget.m 
 
 ./run_normvisualizer.sh /ldcg/matlab_r2020b L1 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv false
+./run_normvisualizer.sh /ldcg/matlab_r2020b H1 /home/sherman.thompson/FoldingAnalysis/O3 /home/sherman.thompson/FoldingAnalysis/foldfold_periods/Post-O2.csv false
