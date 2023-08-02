@@ -105,10 +105,10 @@ function out = dataget(primlocation, primfoldS, primchannel, auxchannel, auxloca
                     bandY(end - nbinmax + 2: end - nbinmin + 2) = Y(end - nbinmax + 2 : end - nbinmin + 2); 
                     bandY(1) = 0; 
                     bandY(L/2 + 1) = 0.; 
-                    day_data = ifft(bandY);
+                    day_data_filt = ifft(bandY);
                 end
 
-                Matrix = [Matrix, day_data];
+                Matrix = [Matrix, day_data_filt];
                 times = file1.('fract');
 
                 counter = counter + 1;
